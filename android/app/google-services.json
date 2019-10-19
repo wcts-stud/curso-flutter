@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "910504973940",
+    "firebase_url": "https://curso-flutter-226bb.firebaseio.com",
+    "project_id": "curso-flutter-226bb",
+    "storage_bucket": "curso-flutter-226bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:910504973940:android:eff81661d65798df832321",
+        "android_client_info": {
+          "package_name": "com.example.task_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "910504973940-v8s65rr413r09ola92onho315nbj66cq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.task_app",
+            "certificate_hash": "0fa98d4e3cde9a54a796bee9312d6fb96e99c63e"
+          }
+        },
+        {
+          "client_id": "910504973940-ds5ammiq0r41h5ccg51cqirhs9e0c5e9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1iE6akWJnbAei9x3Dsv88HMuDTFRgWUA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "910504973940-ds5ammiq0r41h5ccg51cqirhs9e0c5e9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
