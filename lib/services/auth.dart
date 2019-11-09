@@ -5,8 +5,20 @@ class AuthService {
   final GoogleSignIn _googleSignIn = GoogleSignIn();
   final FirebaseAuth _firebaseAuth = FirebaseAuth.instance;
 
+  static String uid;
+
   Stream<FirebaseUser> get user {
     return _firebaseAuth.onAuthStateChanged;
+  }
+
+  AuthService() {
+    _firebaseAuth.onAuthStateChanged.listen((FirebaseUser firebaseUser) {
+      uid = firebaseUser?.uid;
+    });
+  }
+
+  Future<FirebaseUser> currentUser() async {
+    return _firebaseAuth.currentUser();
   }
 
   Future<FirebaseUser> googleSignIn() async {

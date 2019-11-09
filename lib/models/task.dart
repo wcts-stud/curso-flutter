@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 class Task {
   Task({
     this.id,
-    this.done,
+    this.done = false,
     @required this.title,
     this.user
   });
